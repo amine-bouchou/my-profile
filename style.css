@@ -1,0 +1,80 @@
+body{
+background-color: rgb(230,230,230);	
+color:rgb(50,50,50);
+font-family: Courier
+} 
+
+h1  {
+	color:#C81417;
+}
+
+h2{
+	color: rgb(30,30,30);
+}
+
+h1,h2{
+	font-family: Courier
+}
+
+a{
+	text-decoration: none;
+	color:#1417E6;
+	font-weight: bold;
+}
+a:hover {color:#14E617;}
+div{background: white;
+    padding: 60px;
+    margin: 50px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;}
+
+
+}
+ @media (max-width: 760px){
+ 	.container{width: 600px}
+ }
+
+ @media (max-width: 500px){
+ 	.container{width: 400px}
+ }
+
+ /*Custom design with class */
+ .container{
+ 	width: 700px
+ 	margin:40px auto;
+ }
+
+ .card-white{
+ 	background-color: white;
+ 	padding: 40px;
+ 	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+ 	border-radius: 4px
+
+ }
+ .img-circle{
+ 	border-radius: 45%
+ }
+
+ .btn-blue {
+ 	background-color:#1417E6;
+ 	color:white;
+ 	padding: 15px 20px; 
+ }
+ .btn-blue:hover{
+ 	background-color: red;
+ 	color: white;
+ }
+ .list-inline{
+ 	list-style: none;
+ }
+ .list-inline li{
+ 	display: inline;
+ 	padding: 10px
+ }
+ .list-inline i{
+ 	font-size: 50px
+
+ }
+ #introduction p{
+ 	margin-bottom: 35px
+ }
